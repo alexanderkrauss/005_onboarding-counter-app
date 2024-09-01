@@ -1,0 +1,84 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v40-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* open-sans-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/open-sans-v40-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+body {
+  font-family:  'Open Sans';
+  text-align: center;
+  background-image: url('/images/boeing-747.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: midnightblue;
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+
+/* counter */
+h2 {
+  font-size: 160px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* output */
+p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* buttons */
+#increment-btn {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 15px 18px;
+  border-radius: 8px;
+  border: 2px solid midnightblue;
+  background-color: midnightblue;
+  color: white;
+  margin-right: 7px;
+  margin-bottom: 7px;
+}
+
+#increment-btn:hover {
+  background-color: white;
+  color: midnightblue;
+}
+
+#save-btn {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 15px 72px;
+  border-radius: 8px;
+  border: 2px solid midnightblue;
+    background-color: white;
+  color: midnightblue;
+  color: midnightblue
+}
+
+#save-btn:hover {
+  background-color: midnightblue;
+  color: white;
+}
